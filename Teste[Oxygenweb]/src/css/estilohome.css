@@ -1,11 +1,13 @@
 body{
     margin: 0px;
     background-color: #005C66;
-    font-family: condensed;
+    font-family: Poppins;
 }
 
+/*Formatação header*/
+
 .logo{
-   margin-bottom: 35rem;
+   margin-bottom: rem;
    
 }
 
@@ -24,8 +26,6 @@ body{
 
 .menu{
     margin: 0px;
-    padding-right: 4.375rem;
-    margin-bottom: 35rem;
     display: flex;
     list-style: none;
     gap: .5rem
@@ -37,24 +37,6 @@ body{
     display: block;
     padding: .5rem;
 }
-
-
-#carouselExampleFade{
-    margin-top: 10px;
-}
-
-
-footer{
-    text-align: center;
-    box-sizing: border-box;
-    display: block;
-    margin-top: 1.25rem;
-    padding: 30px;
-    height: auto;
-    background-color: #005C66;
-    color: #FFFF;
-}
-
 
 .menu li a.item-menu-ativo{
     color: #FFFF;
@@ -68,6 +50,7 @@ footer{
     display: none;
 }
 
+
 /*Formatação conteúdo*/
 main{
     background-color: #FFFF;
@@ -76,11 +59,12 @@ main{
 }
 
 #text-main1{
+    width: auto;
+    height: 150px;
     text-align: center;
     box-sizing: border-box;
     display: block;
     padding: 30px;
-    
     background-color: #F1F1F1;
     color: #005C66;
    
@@ -96,10 +80,11 @@ main{
 }
 
 #img-main{
-    margin-left: 60px;
+    ;
 }
 
-#carouselExampleIndicators{
+.li-main{
+    text-decoration: none;
 }
 
 #lista-main{
@@ -113,8 +98,43 @@ main{
     color: #005C66;
 }
 
+.botao1{
+    color: #FFFF;
+    background-color: #005C66;
+    border-radius: 50px;
+    text-align: center;
+    width: 7rem;
+    height: 2.5rem;
+    padding: 7px;
+    margin-left: 1px;
+}
+
+.botao2{
+    color: #005C66;
+    background-color: #FFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #005C66;
+    border-radius: 50px;
+    text-align: center;
+    width: 7rem;
+    height: 2.5rem;
+    padding: 6px;
+    margin-left: 10px;
+}
 
 /*Formatação rodapé*/
+footer{
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 1.25rem;
+    padding: 30px;
+    height: auto;
+    background-color: #005C66;
+    color: #FFFF;
+}
+
 h2{
     font-size: 0.938rem;
     text-transform: uppercase;
