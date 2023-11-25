@@ -10,27 +10,29 @@
   <link rel="stylesheet" href="src/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="src/css/estilohome.css">
 
+  <!--Titulo da aba-->
+  <title>Lorem Ipsum | Home</title>
+
+  <!--Logo aba web-->
   <link rel="icon" href="src/Imagens/Subtract.png" type="image/png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-
+  <!--Fonte externa-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-
-
-  <title>Lorem Ipsum | Home</title>
 </head>
 
 <!--Corpo-->
 
 <body class="">
+
+  <!--Acessibilidade-->
+
+  <div class="d-none">
+    <a href="#text-main1" accesskey="1">Produtos da empresa [1]</a> |
+    <a href="#text-main2" accesskey="2">Sobrea a empresa [2]</a> |
+    <a href="#fotoempresa" accesskey="3">Fotos da empresa [3]</a> |
+  </div>
 
   <!--Cabecalho-->
 
@@ -59,7 +61,6 @@
                   <button class="dropdown-item" type="button">LOREM IPSUM</button>
                 </div>
               </div>
-              </li>
               <li><a id="3" href="home.html">LOREM IPSUM</a></li>
               <li><a id="4" href="home.html">LOREM IPSUM</a></li>
               <li><a id="5" href="home.html">LOREM IPSUM</a></li>
@@ -108,7 +109,7 @@
     <section>
       <div id="text-main1">
         <h4>Lorem ipsum dolor sit amet, consectetur <b>adipiscing </b> elit. Nam vel <br> congue
-          purus.<strong>Etiam scelerisque</strong> velit vitae nisi consectetur gravida.</h4>
+          purus. <strong>Etiam scelerisque</strong> velit vitae nisi consectetur gravida.</h4>
       </div>
     </section>
 
@@ -175,12 +176,10 @@
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
-
-    <section class="row container-fluid">
+    <section id="fotoempresa" class="row container-fluid">
       <div class="form-group col-12 col-md-12" id="text-main2">
         <h1><strong>Lorem Ipsum</strong></h1>
        </div>
@@ -204,7 +203,9 @@
                 </div>
               </div>
             </div>
+          </div> 
     </section>
+
   </main>
 
   <!--Rodapé-->
@@ -286,13 +287,14 @@
     <section class="container">
       <div class="row">
         <div class="col-6 col-md-6">
-          <p style="font-size: 0.938rem; color:#00DAD3;">Política de privacidade | Política de cookies</p>
+          <p style="font-size: 1rem; color:#00DAD3;">Política de privacidade | Política de cookies</p>
         </div>
         <div class="col-6 col-md-6">
-          <p style="font-size: 0.75rem; text-align: end;">© Lorem Ipsum | Todos os direitos reservados</p>
+          <p style="font-size: 0.9rem; text-align: end;">© Lorem Ipsum | Todos os direitos reservados</p>
         </div>
       </div>
     </section>
+
   </footer>
 
   <!-- JavaScript (Opcional) -->

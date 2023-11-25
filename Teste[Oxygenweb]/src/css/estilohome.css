@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background-color: #005C66;
-    font-family: Condensed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Nao utilizei a fonte Poppins por ela nao permitir deixar certas palavras em negrito.*/
 }
 
 /*Formatação header*/
@@ -31,11 +31,6 @@ body{
 
 #btn-menu{
     display: none;
-}
-
-.logo{
-   margin-bottom: rem;
-   
 }
 
 .cabecalho{
