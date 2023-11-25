@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background-color: #005C66;
-    font-family: Poppins;
+    font-family: Condensed;
 }
 
 /*Formatação header*/
@@ -54,7 +54,7 @@ body{
 .card{
     background: linear-gradient(#00DAD3, #808080 ) ;
     text-align: left;
-    width: 1px;
+    width: 3rem;
     height: 5rem;
     color: #FFFF;
     padding: 30px;
@@ -77,10 +77,12 @@ main{
     padding: 30px;
     background-color: #F1F1F1;
     color: #005C66;
+    font-size: large;
    
 }
 
 #text-main2{
+    margin-top: 100px;
     text-align: center;
     box-sizing: border-box;
     display: block;
@@ -126,8 +128,26 @@ main{
     margin-left: 10px;
 }
 
-#carouselExampleIndicators{
-  
+.item-primary{
+    color: #005C66;
+    margin-top: 100px;
+    padding: px;
+    text-align: start;
+    font-size: large;
+}
+
+.item-secondary{
+    color: #005C66;
+    margin-top: 50px;
+    padding: px;
+    text-align: start;
+    font-size: large;
+}
+
+.divstyle{
+    margin-top: 1rem;
+    border: solid 2px;
+    border-radius: 10px;
 }
 
 /*Formatação rodapé*/
