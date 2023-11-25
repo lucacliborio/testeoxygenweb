@@ -27,52 +27,72 @@
 
 <!--Corpo-->
 
-<body>
+<body class="">
 
-<!--Cabecalho-->
+  <!--Cabecalho-->
 
   <header class="cabecalho container-fluid">
     <section class="container-fluid">
       <section class="row">
-        <div class="col-6 col-md-6">
+        <div class="col-1 col-md-6">
           <a href="home.html" class="logo"><img class="img-fluid" src="src/Imagens/Subtract.png" alt="Logo da loja"></a>
         </div>
 
-        <div class="col-6 col-md-6">
+        <div class="col- col-md-6">
           <nav class="container-menu" id="cx-menu">
             <button aria-label="Clique para abrir o menu" id="btn-menu" aria-haspopup="true" aria-controls="#menu"
               aria-expanded="false"><span class="hamburger"></span></button>
             <ul class="menu" id="menu" role="menu">
               <li><a id="1" href="home.html" class="item-menu-ativo">LOREM IPSUM</a></li>
-              <li><a id="2" href="home.html">LOREM IPSUM</a></li>
+              <div class="dropdown">
+                <button style="background-color: #005C66; color: #FFFF;" class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  LOREM IPSUM
+                </button>
+                <div style="background-color: #00DAD3; color: #FFFF; opacity: 0.8;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">LOREM IPSUM</button>
+                  <button class="dropdown-item" type="button">LOREM IPSUM</button>
+                  <button class="dropdown-item" type="button">LOREM IPSUM</button>
+                </div>
+              </div>
+              </li>
               <li><a id="3" href="home.html">LOREM IPSUM</a></li>
               <li><a id="4" href="home.html">LOREM IPSUM</a></li>
               <li><a id="5" href="home.html">LOREM IPSUM</a></li>
             </ul>
           </nav>
         </div>
-       </section>
-    
-        <section class="container-fluid">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h1 style="color: #FFFF;" class="form-group col-md-12 col-12" id="text-header">
-                <strong>Lorem ipsum dolor sitamet, consectetur</strong>
-              </h1>
-              <div class="row">
-                <div style="background: linear-gradient(#00DAD3, #000000) ; text-align: left;, width: 10px; height: 5rem; color: #FFFF; padding: 30px" class="col-12 col-md-4">
-                  <p>Lorem ipsum</p>
-                </div>
-                <div style="background: linear-gradient(#00DAD3, #000000) ; text-align: left;, width: 10px; height: 5rem; color: #FFFF; padding: 30px" class="col-12 col-md-4">
-                  <p>Lorem ipsum</p>
-                </div>
+      </section>
+
+      <section class="container-fluid">
+        <div class="row">
+          <div class=" col-12 col-md-6">
+            <h1 style="color: #FFFF; " class="form-group col-md-12 col-12" id="text-header">
+              <strong>Lorem ipsum dolor<br>sitamet, consectetur</strong>
+            </h1>
+            <div class="row">
+              <div class="card col-10 col-md-4">
+                <a class="link" href="home.html">Lorem ipsum</a>
+              </div>
+              <div class="card col-10 col-md-4">
+                <a class="link" href="home.html">Lorem ipsum</a>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <img class="img-fluid" style="max-height: 700px; align-items: right;" src="src/Imagens/Mask group.png" alt="imagemilustrativa">
+            <div class="row">
+              <div class="card col-10 col-md-4">
+                <a class="link" href="home.html">Lorem ipsum</a>
+              </div>
+              <div class="card col-10 col-md-4">
+                <a class="link" href="home.html">Lorem ipsum</a>
+              </div>
             </div>
           </div>
-        </section>
+
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" style="max-height: 700px; margin-top: 50px;" src="src/Imagens/Mask group.png"
+              alt="imagemilustrativa">
+          </div>
+        </div>
+      </section>
     </section>
 
   </header>
@@ -82,14 +102,14 @@
   <main class="">
     <section>
       <div id="text-main1">
-        <h4>Lorem ipsum dolor sit amet, consectetur <strong>adipiscing </strong> elit. Nam vel <br> congue
+        <h4>Lorem ipsum dolor sit amet, consectetur <b>adipiscing </b> elit. Nam vel <br> congue
           purus.<strong>Etiam scelerisque</strong> velit vitae nisi consectetur gravida.</h4>
       </div>
     </section>
 
-    <section class="row">
+    <section class="row container-fluid">
       <div class="form-group col-12 col-md-12" id="text-main2">
-        <h1 style="color:#005C66 ; ">
+        <h1 style="color:#005C66 ;">
           <strong>Lorem Ipsum</strong>
         </h1>
         <h5 style=" color:#005C66 ;">
@@ -108,27 +128,28 @@
         <div class="form-group col-6 col-md-6">
           <div class="row">
             <div class="botao1">
-              <p>Categoria</p>
+              <a style="color: #FFFF;" href="home.html">Categoria</a>
             </div>
 
             <div class="botao2">
-              <p>Categoria</p>
+              <a style="color: #005C66;" href="home.html">Categoria</a>
             </div>
           </div>
         </div>
-        
+
       </div>
     </section>
 
 
-    <section class="row ">
+    <section class="row container-fluid">
       <div class="form-group col-12 col-md-12" id="text-main2">
-        <h1 style="color:#005C66 ; ""><strong>Lorem Ipsum</strong></h1>
-          </div>
-        </section>
+        <h1 style="color:#005C66; margin-top: 100px; ""><strong>Lorem Ipsum</strong></h1>
+       </div>
+    </section>
        
 
-        <section class=" row">
+    <section class="container-fluid">
+        <div class="row">
           <div id="carouselExampleIndicators" class="carousel slide form-group col-md-12 col-12 " data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -142,6 +163,7 @@
                 <img class="d-block w-100" src="src/Imagens/Group 1281.png" alt="imagemilustrativa">
               </div>
             </div>
+        </div>
     </section>
 
 
@@ -149,7 +171,7 @@
 
   </main>
 
-<!--Rodapé-->
+  <!--Rodapé-->
 
   <footer class="container-fluid">
     <div class="footer-top">

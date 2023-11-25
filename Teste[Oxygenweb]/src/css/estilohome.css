@@ -6,24 +6,6 @@ body{
 
 /*Formatação header*/
 
-.logo{
-   margin-bottom: rem;
-   
-}
-
-.cabecalho{
-    box-sizing: border-box;
-    height: auto;
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between; 
-    background-color: #005C66;
-}
-
-#text-header{
-    margin-top: 250px;
-}
-
 .menu{
     margin: 0px;
     display: flex;
@@ -43,19 +25,47 @@ body{
 }
 
 .menu li a:hover{
-    color: #FFFF;
+    color: #00DAD3;
+    text-decoration: underline;
 }
 
 #btn-menu{
     display: none;
 }
 
+.logo{
+   margin-bottom: rem;
+   
+}
+
+.cabecalho{
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between; 
+    background-color: #005C66;
+}
+
+#text-header{
+    margin-top: 150px;
+}
+
+.card{
+    background: linear-gradient(#00DAD3, #808080 ) ;
+    text-align: left;
+    width: 1px;
+    height: 5rem;
+    color: #FFFF;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
 
 /*Formatação conteúdo*/
 main{
     background-color: #FFFF;
-    height: auto;
-    
+    height: auto; 
 }
 
 #text-main1{
@@ -79,13 +89,6 @@ main{
     color: #005C66;  
 }
 
-#img-main{
-    ;
-}
-
-.li-main{
-    text-decoration: none;
-}
 
 #lista-main{
     margin: 0px;
@@ -123,6 +126,10 @@ main{
     margin-left: 10px;
 }
 
+#carouselExampleIndicators{
+  
+}
+
 /*Formatação rodapé*/
 footer{
     text-align: center;
@@ -147,7 +154,7 @@ h2{
 
 .link:hover{
     text-decoration: underline;
-    color: #FFFF;
+    color: #00DAD3;
 }
 
 a{
